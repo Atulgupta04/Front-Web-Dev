@@ -15,3 +15,13 @@ $(function(){
 		}
 	});
 });
+
+// ================Team =============//
+$(function(){
+	$("#team-members").owlCarousel({
+	items: 3,
+	autoplay: true,
+	smartSpeed: 300,
+	loop: true
+	});
+});
