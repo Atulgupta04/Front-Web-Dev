@@ -21,7 +21,20 @@ $(function(){
 	$("#team-members").owlCarousel({
 	items: 3,
 	autoplay: true,
-	smartSpeed: 300,
-	loop: true
+	smartSpeed: 10,
+	loop: true,
+	autoplayHoverPause: true
+	});
+});
+
+
+// ================Testimonials =============//
+$(function(){
+	$("#customers-testimonials").owlCarousel({
+	items: 1,
+	autoplay: true,
+	smartSpeed: 10,
+	loop: true,
+	autoplayHoverPause: true
 	});
 });
